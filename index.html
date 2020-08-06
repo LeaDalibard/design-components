@@ -10,6 +10,9 @@
 <body>
 
 
+<! -- outline-mode * {
+outline: 1px solid #000;
+} -->
 <h1>Emergency Contact and Medical Information</h1>
 
 
@@ -45,8 +48,8 @@
         <input type="text" id="lnameem" name="lname" value="Last name"><br>
         <label for="lnameem">Last</label><br>
 
-        <h2>Relationship</h2>
-        <textarea name="message" style="">Type yout text here.</textarea>
+        <label for="relationship">Relationship</label><br>
+        <input type="text" id="relationship" name="relationship"><br>
 
         <h2>Address</h2>
 
@@ -330,7 +333,7 @@
         <input type="number" id="wphone1" name="wphone1"><br>
         <label for="wphone1">###</label>
         <span>-</span>
-        <input type="wnumber" id="wphone2" name="wphone2"><br>
+        <input type="number" id="wphone2" name="wphone2"><br>
         <label for="wphone2">###</label>
         <span>-</span>
         <input type="number" id="wphone3" name="wphone3"><br>
@@ -338,7 +341,37 @@
 
     </fieldset>
 
+<fieldset>
+    <legend>Medical Information</legend>
 
+    <label for="hospital">Hospital / Clinic Preference</label><br>
+    <input type="text" id="hospital" name="hospital"><br>
+
+    <label for="insurance">Insurance Company</label><br>
+    <input type="text" id="insurance" name="insurance"><br>
+
+    <label for="policy-nb">Policy Number</label><br>
+    <input type="number" id="policy-nb" name="policy-nb"><br>
+
+    <label for="physician">Physian Name</label><br>
+    <input type="text" id="physician" name="physician"><br>
+
+    <h2>Phone Number</h2>
+
+    <input type="number" id="ph-phone1" name="phone1"><br>
+    <label for="ph-phone1">###</label>
+    <span>-</span>
+    <input type="number" id="ph-phone2" name="phone2"><br>
+    <label for="ph-phone2">###</label>
+    <span>-</span>
+    <input type="number" id="ph-phone3" name="phone3"><br>
+    <label for="ph-phone3">###</label><br>
+
+    <label for="allergies">Allergies / Special Health Considerations</label><br>
+    <textarea id="allergies" name="allergies" allergies></textarea><br>
+</fieldset>
+
+    <input type="submit" value="Submit">
 </form>
 
 
