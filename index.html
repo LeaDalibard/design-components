@@ -14,8 +14,9 @@
 
 
 <form action="" method="post">
-    <div>
-        <h3>Name</h3>
+
+    <fieldset>
+        <h2>Name</h2>
         <div>
             <input type="text" id="fname" name="fname" value="Your first name"><br>
             <label for="fname">First</label><br>
@@ -33,25 +34,21 @@
 
         <label for="birthday">Date of Birth:</label>
         <input type="date" id="birthday" name="birthday" placeholder="mm/dd/yyyy">
-    </div>
-    <div>
-        <h2>Emergency contact</h2>
+    </fieldset>
+    <fieldset>
+        <legend>Emergency contact</legend>
 
-        <h3>Name</h3>
+        <h2>Name</h2>
         <input type="text" id="fnameem" name="fnameem" value="First name"><br>
         <label for="fnameem">First</label><br>
 
         <input type="text" id="lnameem" name="lname" value="Last name"><br>
         <label for="lnameem">Last</label><br>
 
-        <h3>Relationship</h3>
+        <h2>Relationship</h2>
         <textarea name="message" style="">Type yout text here.</textarea>
 
-    </div>
-
-    <div>
-
-        <h3>Address</h3>
+        <h2>Address</h2>
 
         <input type="text" id="streetadress" name="streetadress"><br>
         <label for="streetadress">Street address</label><br>
@@ -198,7 +195,8 @@
             <option value="Lithuania">Lithuania</option>
             <option value="Luxembourg">Luxembourg</option>
             <option value="Macao">Macao</option>
-            <option value="Macedonia, The Former Yugoslav Republic of">Macedonia, The Former Yugoslav Republic of</option>
+            <option value="Macedonia, The Former Yugoslav Republic of">Macedonia, The Former Yugoslav Republic of
+            </option>
             <option value="Madagascar">Madagascar</option>
             <option value="Malawi">Malawi</option>
             <option value="Malaysia">Malaysia</option>
@@ -271,7 +269,8 @@
             <option value="Solomon Islands">Solomon Islands</option>
             <option value="Somalia">Somalia</option>
             <option value="South Africa">South Africa</option>
-            <option value="South Georgia and The South Sandwich Islands">South Georgia and The South Sandwich Islands</option>
+            <option value="South Georgia and The South Sandwich Islands">South Georgia and The South Sandwich Islands
+            </option>
             <option value="Spain">Spain</option>
             <option value="Sri Lanka">Sri Lanka</option>
             <option value="Sudan">Sudan</option>
@@ -316,7 +315,28 @@
         </select>
         <label for="country">Country</label>
 
-    </div>
+        <h2>Home Phone</h2>
+        <input type="number" id="phone1" name="phone1"><br>
+        <label for="phone1">###</label>
+        <span>-</span>
+        <input type="number" id="phone2" name="phone2"><br>
+        <label for="phone2">###</label>
+        <span>-</span>
+        <input type="number" id="phone3" name="phone3"><br>
+        <label for="phone3">###</label>
+
+        <h2>Work Phone</h2>
+
+        <input type="number" id="wphone1" name="wphone1"><br>
+        <label for="wphone1">###</label>
+        <span>-</span>
+        <input type="wnumber" id="wphone2" name="wphone2"><br>
+        <label for="wphone2">###</label>
+        <span>-</span>
+        <input type="number" id="wphone3" name="wphone3"><br>
+        <label for="wphone3">###</label>
+
+    </fieldset>
 
 
 </form>
