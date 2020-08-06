@@ -14,28 +14,44 @@
 
 
 <form action="" method="post">
-
-    <h2>Name</h2>
-<div>
-    <input type="text" id="fname" name="fname" value="Your first name"><br>
-    <label for="fname">First</label><br>
-    <input type="text" id="lname" name="lname" value="Your last name"><br>
-    <label for="lname">Last</label>
-</div>
     <div>
-    <label for="gender">Gender</label><br>
-    <select id="gender" name="gender">
-        <option value="male">Male</option>
-        <option value="female">Female</option>
-        <option value="other">Other</option>
-    </select>
-    </div>
-<div>
+        <h3>Name</h3>
+        <div>
+            <input type="text" id="fname" name="fname" value="Your first name"><br>
+            <label for="fname">First</label><br>
+            <input type="text" id="lname" name="lname" value="Your last name"><br>
+            <label for="lname">Last</label>
+        </div>
+        <div>
+            <label for="gender">Gender</label><br>
+            <select id="gender" name="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
 
-</div>
+        <label for="birthday">Date of Birth:</label>
+        <input type="date" id="birthday" name="birthday" placeholder="mm/dd/yyyy">
+    </div>
+    <div>
+        <h2>Emergency contact</h2>
+
+        <h3>Name</h3>
+        <input type="text" id="fnameem" name="fnameem" value="First name"><br>
+        <label for="fnameem">First</label><br>
+
+        <input type="text" id="lnameem" name="lname" value="Last name"><br>
+        <label for="lnameem">Last</label><br>
+
+        <h3>Relationship</h3>
+        <textarea name="message" style="">Type yout text here.</textarea>
+
+    </div>
+
 
 </form>
 
 
 </body>
-</html
+</html>
