@@ -8,11 +8,17 @@ outline-mode * {
 .content {
     width:50%;
     margin: auto;
+    overflow: hidden;
 }
-.col{
+.coll{
     float: left;
-    width: 50%;
-    margin-top: 6px;
+    width: 48%;
+    border: 1px solid blue;
+    min-height: 50px;
+}
+.colr{
+    float: right;
+    width: 48%;
     border: 1px solid blue;
     min-height: 50px;
 }
@@ -25,4 +31,18 @@ outline-mode * {
 
 span.a {
     display: inline-block;
+}
+
+input[type=text] {
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+select{
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+textarea{
+    width: 100%;
 }
