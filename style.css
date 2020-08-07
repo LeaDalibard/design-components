@@ -14,6 +14,7 @@ outline-mode * {
     width: 50%;
     margin-top: 6px;
     border: 1px solid blue;
+    min-height: 50px;
 }
 .col2{
     width: 100%;
