@@ -1,0 +1,18 @@
+outline-mode * {
+    outline: 1px solid #000;
+}
+.content {
+    width:50%;
+    margin: auto;
+}
+.col{
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+}
+
+span.a {
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid blue;
+}
