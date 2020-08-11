@@ -74,13 +74,19 @@ span.a {
     display: inline-block;
 }
 
-input{
-    min-height:22px;
+input {
+    min-height: 22px;
     margin-bottom: 5px;
     margin-top: 5px;
+    box-shadow: inset 1px 1px 1px gray;
+    border:0.5px solid lightgray;
 }
 input[type=text] {
     width: 100%;
+}
+
+input[type=submit] {
+   margin-left: 10px;
 }
 .fname {
     width: 15%;
@@ -105,6 +111,8 @@ select{
     margin-bottom: 5px;
     margin-top: 5px;
     min-height:22px;
+    box-shadow: inset 1px 1px 1px gray;
+    border:0.5px solid lightgray;
 }
 
 textarea{
@@ -112,6 +120,8 @@ textarea{
     height: 100px;
     margin-bottom: 5px;
     margin-top: 5px;
+    box-shadow: inset 1px 1px 1px gray;
+    border:0.5px solid lightgray;
 }
 
 input[type=number]
