@@ -1,6 +1,3 @@
-outline-mode * {
-    outline: 1px solid #000;
-}
 * {
     box-sizing: border-box;
 }
@@ -11,23 +8,26 @@ fieldset{
 
 /*____________________TYPO__________________*/
 body{
-    font-family: "Open Sans",sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size:12px;
 }
 h1{
     font-size: 25px;
+    font-weight: bold;
+    border-bottom: 1px dotted lightgray;
+    padding-bottom: 20px;
 }
 h2, .titleLabel{
-    margin-top: 6px;
-    margin-bottom:6px;
+    margin: 0;
     font-size: 13px;
-    font-weight: bold;
+    font-weight: Bold;
     padding: 1px;
 }
 
 legend{
     font-size: 15px;
     font-weight: bold;
+    margin-top: 5px;
 }
 /*___________________________________________*/
 
@@ -40,9 +40,12 @@ legend{
 }
 
 fieldset{
-    border-top: 1px dotted lightgray;
-    margin-top:10px;
+    margin-bottom:10px;
     padding:10px;
+    border-bottom: 1px dotted lightgray;
+}
+.noBorder{
+    border:none;
 }
 
 header{
@@ -73,10 +76,11 @@ span.a {
 
 input{
     min-height:22px;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 input[type=text] {
     width: 100%;
-    margin-bottom: 5px;
 }
 .fname {
     width: 15%;
@@ -86,17 +90,34 @@ input[type=text] {
     width: 20%;
     margin-bottom: 5px;
 }
+.fname2 {
+    width: 30%;
+    margin-bottom: 5px;
+}
+.lname2 {
+    width: 40%;
+    margin-bottom: 5px;
+}
 
 
 select{
     width: 100%;
-    margin-bottom: 8px;
+    margin-bottom: 5px;
+    margin-top: 5px;
     min-height:22px;
 }
 
 textarea{
     width: 100%;
     height: 100px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+input[type=number]
+{
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 
 input[type=number].nb1
