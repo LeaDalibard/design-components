@@ -56,8 +56,17 @@ input{
 }
 input[type=text] {
     width: 100%;
-    margin-bottom: 8px;
+    margin-bottom: 5px;
 }
+.fname {
+    width: 15%;
+    margin-bottom: 5px;
+}
+.lname {
+    width: 20%;
+    margin-bottom: 5px;
+}
+
 
 select{
     width: 100%;
