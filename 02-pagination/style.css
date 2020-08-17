@@ -1,0 +1,38 @@
+body.outline-mode * {
+    outline: 1px solid #000;
+}
+
+
+.container {
+    padding-top: 0.4rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    background-color: #f7f3e9;
+    height: 3.6rem;
+    font-family: 'Dosis', sans-serif;
+    color: gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: medium;
+}
+
+
+a {
+    text-decoration: none;
+    color: gray;
+    padding: 0.7rem;
+}
+
+.socialNetwork {
+    padding-left: 1rem;
+}
+
+.fa {
+    padding: 0.6rem;
+    text-align: center;
+    text-decoration: none;
+    background-color: #f8f3e9;
+    color: gray;
+}
+
