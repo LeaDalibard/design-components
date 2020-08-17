@@ -1,0 +1,13 @@
+
+.card-img-top {
+    max-width: 10rem;
+    max-height: 10rem;
+}
+
+.card-text{
+    font-family:"Open Sans", sans-serif;
+}
+.card-title{
+    font-family:"Open Sans", sans-serif;
+    color: mediumseagreen;
+}
